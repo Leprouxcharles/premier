@@ -1,0 +1,204 @@
+/*mise en page*/
+body {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+
+
+/*cosmetique bouton*/
+button {
+    background-color: rgb(92,163,255);
+}
+
+
+
+
+
+/*cosmetique du menu*/
+.navbar-default{
+    background-color: rgb(129,170,218);
+    text-decoration-color : rgb(0,0,0);
+    color : rgb(0,0,0);
+    border-radius: 4px;
+}
+
+
+
+
+
+/*dimension photo*/
+img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*pour changer la couleur du texte des lien*/
+p, aside, h4 {
+    color: black;
+}
+
+
+
+
+
+
+
+/*titre : mise en page  +   cosmetique*/
+h1 {
+    margin: 10px;
+}
+h3 {
+    text-align: left;
+    text-decoration-line: underline;
+}
+h4 {
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*blockquote la bar de menu horizontale*/
+blockquote
+{
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+/* hover : gestion couleur du background des divs contenant les article*/
+.row2:hover{
+    background-color: #D4D3D3;
+}
+
+
+
+
+
+/*bordur des articles*/
+.row2 {
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F0F0F0;
+}
+
+/*bordur le contenue des page escalade calculatrice et contact*/
+.row4{
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F0F0F0;
+}
+
+textarea {
+    
+    width: 70%;
+}
+
+input {
+    width: 25%;
+}
+
+
+/*gestion mise ne page formulaire*/
+.form{
+    margin-top: 40px;
+} 
+
+
+
+
+
+
+/*gestion position des articles sur smarphone*/
+@media screen and (max-width: 768px) {  
+    
+    .container-fluid {
+        margin-top: 40px;
+    } 
+     
+    .row {
+        margin-top:  35px;
+        margin-bottom: 35px;
+    }    
+
+    .row4 {
+        margin-top:  5px;
+        margin-bottom: 5px;
+    }
+    textarea {
+        
+        width: 100%;
+    }
+    
+    input {
+        width: 75%;
+    }
+}
+
+
+
+
+
+
+/*gestion position des articles sur smarphone en format landscape*/
+@media screen and (max-width: 768px) and (orientation: landscape) {      
+    
+    .container-fluid {
+        padding: 0px;
+        margin-top: 0px;
+    }    
+    .row {
+        margin-top:  25px;
+        margin-bottom: 25px;
+    }
+    
+}
+
+/*pour le smiley de la page calculatrice*/
+.haha {
+    background-color: rgba(255, 255, 0, 0.6);
+}
+.haha1 {
+    background-color: rgba(255, 255, 0, 0.6);
+    border-radius: 40px;
+    border : 1px solid rgba(255, 255, 0, 0.6);
+}  
+.hoho {
+    background-color: rgba(255, 51, 0, 0.56) ;
+}
+
+.hoho1 {
+    background-color: rgba(255, 51, 0, 0.56);
+    border-radius: 40px;
+    border : 1px solidrgba(255, 51, 0, 0.56);
+} 
+
+
+
+
+/*outil pour visualiser les colonnes
+[class*="col-"], {           
+    border: 1px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+    text-align: center;
+  }*/
+/**/
