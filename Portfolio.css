@@ -172,33 +172,3 @@ input {
     
 }
 
-/*pour le smiley de la page calculatrice*/
-.haha {
-    background-color: rgba(255, 255, 0, 0.6);
-}
-.haha1 {
-    background-color: rgba(255, 255, 0, 0.6);
-    border-radius: 40px;
-    border : 1px solid rgba(255, 255, 0, 0.6);
-}  
-.hoho {
-    background-color: rgba(255, 51, 0, 0.56) ;
-}
-
-.hoho1 {
-    background-color: rgba(255, 51, 0, 0.56);
-    border-radius: 40px;
-    border : 1px solidrgba(255, 51, 0, 0.56);
-} 
-
-
-
-
-/*outil pour visualiser les colonnes
-[class*="col-"], {           
-    border: 1px solid black;
-    border-radius: 6px;
-    line-height: 40px;
-    text-align: center;
-  }*/
-/**/
